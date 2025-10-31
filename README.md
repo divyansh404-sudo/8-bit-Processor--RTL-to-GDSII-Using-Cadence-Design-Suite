@@ -23,6 +23,7 @@ This section presents key visual stages of the physical implementation for both 
 
 #### 1. Gate-Level Schematic (180nm)
 ![180nm Schematic](./images/schematic_180nm.png)
+
 **Post-synthesis gate-level schematic showing 1229 standard cells, processor datapath, ALU integration, and memory array interconnections**
 
 
