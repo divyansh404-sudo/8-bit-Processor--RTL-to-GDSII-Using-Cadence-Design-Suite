@@ -23,18 +23,18 @@ This section presents key visual stages of the physical implementation for both 
 
 #### 1. Gate-Level Schematic (180nm)
 ![180nm Schematic](./images/schematic_180nm.png)
-*Post-synthesis gate-level schematic showing 1229 standard cells, processor datapath, ALU integration, and memory array interconnections*
+**Post-synthesis gate-level schematic showing 1229 standard cells, processor datapath, ALU integration, and memory array interconnections**
 
 
 
 #### 2. No Layout View (180nm)
 ![180nm No Layout](./images/no_layout_180nm.png)
-*Initial view before placement and routing - shows bare floorplan or empty die area ready for standard cell placement*
+**Initial view before placement and routing - shows bare floorplan or empty die area ready for standard cell placement**
 
 
 #### 3. Complete Layout (180nm)
 ![180nm Layout](./images/layout_180nm.png)
-*Finished physical layout with complete placement, routing across all metal layers (M1-M4), power distribution, and fabrication-ready GDSII*
+**Finished physical layout with complete placement, routing across all metal layers (M1-M4), power distribution, and fabrication-ready GDSII**
 
 
 
@@ -42,18 +42,18 @@ This section presents key visual stages of the physical implementation for both 
 
 #### 1. Gate-Level Schematic (90nm)
 ![90nm Schematic](./images/schematic_90nm.png)
-*Post-synthesis gate-level schematic with 1209 optimized standard cells, showing higher logic density and tighter integration compared to 180nm*
+**Post-synthesis gate-level schematic with 1209 optimized standard cells, showing higher logic density and tighter integration compared to 180nm**
 
 
 #### 2. No Layout View (90nm)
 ![90nm No Layout](./images/no_layout_90nm.png)
-*Initial view showing empty floorplan with 3.16× smaller die area compared to 180nm, ready for high-density placement*
+**Initial view showing empty floorplan with 3.16× smaller die area compared to 180nm, ready for high-density placement**
 
 
 
 #### 3. Complete Layout (90nm)
 ![90nm Layout](./images/layout_90nm.png)
-*Complete physical layout with high-density placement, advanced multi-layer routing (M1-M6), optimized power mesh, and fabrication-ready GDSII*
+**Complete physical layout with high-density placement, advanced multi-layer routing (M1-M6), optimized power mesh, and fabrication-ready GDSII**
 
 
 
