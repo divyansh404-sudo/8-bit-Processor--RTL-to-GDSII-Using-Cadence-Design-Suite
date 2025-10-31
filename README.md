@@ -25,43 +25,18 @@ This section presents key visual stages of the physical implementation for both 
 ![180nm Schematic](./images/schematic_180nm.png)
 *Post-synthesis gate-level schematic showing 1229 standard cells, processor datapath, ALU integration, and memory array interconnections*
 
-**Key Features Visible:**
-- Accumulator (A) register bank (8 bits)
-- Program Counter (PC) logic (5 bits)
-- ALU with 7 operation paths (ADD, SUB, AND, OR, INC, DEC, NOT)
-- 32×8 memory array structure (256 flip-flops)
-- Control FSM state registers (3-state machine)
-- Flag generation circuitry (Carry, Zero)
-- Instruction Register (IR) and control logic
-- Interconnection network between all major blocks
+
 
 #### 2. No Layout View (180nm)
 ![180nm No Layout](./images/no_layout_180nm.png)
 *Initial view before placement and routing - shows bare floorplan or empty die area ready for standard cell placement*
 
-**Design Configuration:**
-- Total Die Area: 38429.900 μm²
-- Cell Count: 1229 cells ready for placement
-- Core area defined and ready
-- Power planning prepared
-- I/O pads configured
 
 #### 3. Complete Layout (180nm)
 ![180nm Layout](./images/layout_180nm.png)
 *Finished physical layout with complete placement, routing across all metal layers (M1-M4), power distribution, and fabrication-ready GDSII*
 
-**Layout Highlights:**
-- ✅ All 1229 cells placed and routed
-- ✅ DRC Clean: Zero violations
-- ✅ LVS Clean: Netlist matches layout perfectly
-- ✅ Metal Layers: M1-M4 routing complete
-- ✅ Power Grid: VDD/VSS mesh implemented
-- ✅ Clock Tree: Distribution network optimized
-- Sequential Area: 62.9% (memory-dominated design)
-- Logic Area: 35.9% (ALU and control)
-- Critical Path: 7.457 ns (validated)
 
----
 
 ### 90nm Technology Implementation
 
@@ -69,43 +44,18 @@ This section presents key visual stages of the physical implementation for both 
 ![90nm Schematic](./images/schematic_90nm.png)
 *Post-synthesis gate-level schematic with 1209 optimized standard cells, showing higher logic density and tighter integration compared to 180nm*
 
-**Key Features Visible:**
-- Compact accumulator design with advanced cells
-- Optimized PC logic with reduced gate count
-- High-density ALU implementation (7 operations)
-- Efficient memory array layout (256 FFs)
-- Reduced interconnect lengths
-- Advanced cell library usage (smaller footprint)
-- Optimized control FSM circuitry
-- Improved signal routing topology
 
 #### 2. No Layout View (90nm)
 ![90nm No Layout](./images/no_layout_90nm.png)
 *Initial view showing empty floorplan with 3.16× smaller die area compared to 180nm, ready for high-density placement*
 
-**Design Configuration:**
-- Total Die Area: 12153.543 μm² (3.16× reduction)
-- Cell Count: 1209 cells ready for placement
-- Higher core utilization target
-- Advanced power planning strategy
-- Compact floorplan configuration
+
 
 #### 3. Complete Layout (90nm)
 ![90nm Layout](./images/layout_90nm.png)
 *Complete physical layout with high-density placement, advanced multi-layer routing (M1-M6), optimized power mesh, and fabrication-ready GDSII*
 
-**Layout Highlights:**
-- ✅ All 1209 cells placed with high density
-- ✅ DRC Clean: Zero violations (advanced node rules)
-- ✅ LVS Clean: Perfect netlist-to-layout match
-- ✅ Metal Layers: M1-M6 routing (6 layers utilized)
-- ✅ Power Grid: Fine-pitch VDD/VSS distribution
-- ✅ Clock Tree: Advanced H-tree topology
-- Sequential Area: 60.1% (memory array)
-- Logic Area: 38.7% (higher logic density)
-- Critical Path: 3.609 ns (2.07× faster than 180nm)
 
----
 
 ### Technology Comparison - Layout Summary
 
@@ -952,36 +902,7 @@ Key Signals Monitored:
 
 ---
 
-## 📁 Repository Structure
 
-```
-8-bit-processor/
-├── rtl/
-│   ├── processor.v          # Top-level processor module
-│   ├── alu.v                # Arithmetic Logic Unit
-│   └── README.md            # RTL documentation
-├── simulation/
-│   ├── processor_tb.v       # Testbench
-│   ├── run_sim.tcl          # Simulation script
-│   └── test_programs/       # Sample programs
-├── synthesis/
-│   ├── synthesis_90nm.tcl   # 90nm synthesis script
-│   ├── synthesis_180nm.tcl  # 180nm synthesis script
-│   └── constraints.sdc      # Timing constraints
-├── physical_design/
-│   ├── floorplan.tcl        # Floorplanning script
-│   ├── pnr_flow.tcl         # P&R automation
-│   └── signoff/             # DRC/LVS scripts
-├── docs/
-│   ├── architecture.pdf     # Architecture document
-│   ├── isa_manual.pdf       # ISA reference manual
-│   └── design_report.pdf    # Complete design report
-├── images/                  # Screenshots and diagrams
-├── LICENSE
-└── README.md               # This file
-```
-
----
 
 ## 🎓 Academic Information
 
@@ -1090,7 +1011,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 📧 Contact
 
-**[Divyansh Tiwari]**
+**Divyansh Tiwari**
 
 - 📬 Email: divyanshtiwari435@gmail.com
 - 💼 LinkedIn:[linkedin.com/in/Divyansh Tiwari](https://www.linkedin.com/in/divyansh-tiwari-18064728a)
@@ -1109,8 +1030,6 @@ Contributions are welcome! Here's how you can help:
 
 © 2025 [Divyansh Tiwari]. All Rights Reserved.
 
----
 
-⭐ **Star this repository if you find it helpful!** ⭐
 
 </div>
