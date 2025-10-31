@@ -987,12 +987,12 @@ Key Signals Monitored:
 
 ### Course Details
 
-- **Course Code**: [Your Course Code]
-- **Course Name**: VLSI System Design / Computer Architecture
-- **Instructor**: [Instructor Name]
+- **Course Code**:   (EC-307)
+- **Course Name**: VLSI System Design 
+- **Instructor**:  Dr. P. Ranga Babu
 - **Department**: Electronics and Communication Engineering
-- **Institution**: [Your Institution]
-- **Semester**: [Semester/Year]
+- **Institution**: IIITDM Kurnool
+- **Semester**:ODD 2025
 
 ### Learning Outcomes
 
@@ -1086,62 +1086,33 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License**.
-
-```
-MIT License
-
-Copyright (c) 2025 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
 
 ## 📧 Contact
 
-**[Your Name]**
+**[Divyansh Tiwari]**
 
-- 📬 Email: [your.email@example.com]
-- 💼 LinkedIn: [linkedin.com/in/yourprofile]
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 🌐 Website: [yourwebsite.com]
+- 📬 Email: [divyanshtiwari435@gmail.com]
+- 💼 LinkedIn:[linkedin.com/in/Divyansh Tiwari](https://www.linkedin.com/in/divyansh-tiwari-18064728a)
+- 🐙 GitHub: [divyansh404-sudo](https://github.com/yourusername)
+  
 
----
 
-## 🙏 Acknowledgments
 
-- **[Instructor Name]** - Project guidance and mentorship
-- **[Institution Name]** - Laboratory facilities and resources
-- **Cadence Academic Network** - EDA tool support
-- **Open-source VLSI community** - Technical insights
 
----
 
 <div align="center">
 
-**Developed with ❤️ for VLSI Education**
-
----
+-
 
 ## 👨‍💻 Developer
 
-**[Your Name]**  
-*Roll Number: [Your Roll Number]*  
+**[Divyansh Tiwari]**  
+*Roll Number: [123EC0039]*  
 *B.Tech in Electronics and Communication Engineering*  
-*[Your Institution Name]*
+*[Indian Institute of Information Technology Design and Manufacturing, Kurnoo]*
 
-© 2025 [Your Name]. All Rights Reserved.
+© 2025 [Divyansh Tiwari]. All Rights Reserved.
 
 ---
 
