@@ -827,25 +827,7 @@ Result  : ✓ A = 11, INC operation verified
 └────────────────────────────────────────────────┘
 ```
 
-### Simulation Waveform Analysis
 
-```
-Key Signals Monitored:
-┌──────────────────────────────────────────────┐
-│ clk          : System clock (10 ns period)   │
-│ reset        : Asynchronous reset            │
-│ PC[4:0]      : Program counter (0→1→2→3)     │
-│ IR[7:0]      : Instruction register          │
-│ A[7:0]       : Accumulator (10→15→5→0→15)    │
-│ state[1:0]   : FSM state (FETCH/EXEC/WB)     │
-│ carry        : Carry flag (verified)         │
-│ zero         : Zero flag (set for AND=0)     │
-│ halted       : Halt flag (set at T=95ns+)    │
-│ alu_op[2:0]  : ALU operation select          │
-│ alu_b[7:0]   : ALU B operand                 │
-│ memory[0:31] : Full memory array             │
-└──────────────────────────────────────────────┘
-```
 
 ### Verification Status Summary
 
