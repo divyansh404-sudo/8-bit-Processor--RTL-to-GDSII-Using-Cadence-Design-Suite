@@ -1003,7 +1003,7 @@ Contributions are welcome! Here's how you can help:
 
 - 📬 Email: divyanshtiwari435@gmail.com
 - 💼 LinkedIn:[linkedin.com/in/Divyansh Tiwari](https://www.linkedin.com/in/divyansh-tiwari-18064728a)
-- 🐙 GitHub: [divyansh404-sudo](https://github.com/yourusername)
+- 🐙 GitHub: [divyansh404-sudo](https://github.com/divyansh404-sudo)
 
 <div align="center">
 
