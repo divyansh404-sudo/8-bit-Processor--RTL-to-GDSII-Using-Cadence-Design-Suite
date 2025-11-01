@@ -1014,7 +1014,7 @@ Contributions are welcome! Here's how you can help:
 **[Divyansh Tiwari]**  
 *Roll Number: [123EC0039]*  
 *B.Tech in Electronics and Communication Engineering*  
-*[Indian Institute of Information Technology Design and Manufacturing, Kurnoo]*
+*Indian Institute of Information Technology Design and Manufacturing, Kurnool*
 
 © 2025 [Divyansh Tiwari]. All Rights Reserved.
 
