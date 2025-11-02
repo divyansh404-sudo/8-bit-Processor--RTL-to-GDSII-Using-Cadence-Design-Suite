@@ -331,34 +331,7 @@ This repository presents a **complete RTL-to-GDSII implementation** of an 8-bit 
                 (If not HALT)
 ```
 
-### Execution Cycles
 
-#### 1. LOAD Instruction (2 cycles)
-```
-Cycle 1 (FETCH):  IR ← M[PC]
-Cycle 2 (EXEC):   A ← M[IR[4:0]], PC ← PC + 1
-```
-
-#### 2. STORE Instruction (2 cycles)
-```
-Cycle 1 (FETCH):  IR ← M[PC]
-Cycle 2 (EXEC):   M[IR[4:0]] ← A, PC ← PC + 1
-```
-
-#### 3. ALU Instruction (3 cycles)
-```
-Cycle 1 (FETCH):  IR ← M[PC]
-Cycle 2 (EXEC):   alu_op ← IR[4:2], alu_b ← M[M[PC+1]], next_pc ← PC + 2
-Cycle 3 (WB):     A ← ALU_result, Carry ← carry, Zero ← zero, PC ← next_pc
-```
-
-#### 4. HALT Instruction (1 cycle)
-```
-Cycle 1 (FETCH):  IR ← M[PC]
-Cycle 2 (EXEC):   halted ← 1, Stop execution
-```
-
----
 
 ## 💻 Example Programs
 
